@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Adoção Responsável</title>
+
+  <!--Fontes para o site-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!--Fundo do site-->
+  <div class="bg-blob bg-blob-1"></div>
+  <div class="bg-blob bg-blob-2"></div>
+
+  <!--Cabeçalho do site-->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class=logo>
+        Patinhas Felizes 🐾
+        <span>Conscientização sobre Adoção Responsável</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+
+      <!--Navegação principal do site-->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Início</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="avalie.html">Avaliações</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Conteúdo principal e card de destaque-->
+  <main class="container">
+    <section class="hero-section">
+      <div class="hero-card">
+        <div class="hero-content">
+          <h1 class="hero-title">Adotar não é apenas um ato de amor, é um compromisso.</h1>
+          <p class="hero-description">Esperamos que através dos nossos guias e dicas, sua jornada de adaptação com o seu pet seja mais tranquila e cheia de amor.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Guia rápido-->
+    <section class="quick-guide">
+      <h2 class="section-title">Em dúvida de por onde começar?</h2>
+      <div class="guide-grid">
+
+        <a href="checklist.html" class="guide-card">
+          <span class="guide-icon">
+            <img src="img/icone-cachorro.svg" alt="Ícone de cachorro">
+          </span>
+          <h3>Pense bem antes de adotar</h3>
+          <p>Faça um checklist financeiro e avalie a sua rotina familiar.</p>
+        </a>
+
+        <a href="adaptacao.html" class="guide-card">
+          <span class="guide-icon">
+            <img src="img/icone-gato.svg" alt="Ícone de gato">
+          </span>
+          <h3>A chegada em casa</h3>
+          <p>Venha conhecer a regra 3-3-3 e descubra como adaptar o ambiente nos primeiros dias.</p>
+        </a>
+
+        <a href="curiosidades.html" class="guide-card">
+          <span class="guide-icon">
+            <img src="img/icone-pata.svg" alt="Ícone de patinha">
+          </span>
+          <h3>Curiosidades</h3>
+          <p>Venha conhecer mais algumas informações sobre a causa animal no Brasil.</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!--FAQ e mitos e verdades-->
+    <section class="content-layout">
+      <div>
+        <h2 class="content-section-title">Dúvidas Frequentes</h2>
+        <div class="faq-list">
+
+          <details class="faq-item" open>
+            <summary class="faq-question">Quais os requisitos básicos para adotar um pet?</summary>
+            <div class="faq-answer">
+              <p>Qualquer pessoa maior de 18 anos pode adotar um animal, desde que que tenha consciência que cuidar um pet requer paciência e carinho, e disposição para entrar nessa jornada.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">Quais documentos são necessários apresentar para uma adoção?</summary>
+            <div class="faq-answer">
+              <p>Documento com foto e comprovante de residência. Também pedimos que apresente um documento com foto no dia que buscar o seu pet.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">Morar em apartamento impede a adoção?</summary>
+            <div class="faq-answer">
+              <p>De forma alguma! O importante é que o tutor tenha tempo disponível tanto para passeios como para promover estímulos físicos para gasto de energia do animal.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">Adotei um pet mas ele não se adaptou, e agora? É possível devolvê-lo?</summary>
+            <div class="faq-answer">
+              <p>Sim, porém pedimos para que por favor considerem bem antes de adotar. Em sua grande maioria animais adotados necessitam de um período para que se adaptem, além de serem animais com histórico de abandono e maus tratos, portanto necessitam de muito carinho, paciência e amor.</p>
+            </div>
+          </details>
+
+
+        </div>
+      </div>
+
+      <aside>
+        <h2 class="content-section-title">Mitos vs. Verdades</h2>
+        <div class="sidebar-box">
+
+          <div class="fact-card myth">
+            <span class="fact-tag">Mito</span>
+            <p>"Animais de abrigo são sempre ariscos ou têm problemas comportamentais."</p>
+          </div>
+
+          <div class="fact-card truth">
+            <span class="fact-tag">Verdade</span>
+            <p>A maioria dos animais resgatados se adapta bem e desenvolve laços profundos de gratidão com seus tutores.</p>
+          </div>
+
+        </div>
+      </aside>
+
+    </section>
+  </main>
+
+  <!--Rodapé da página-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Patinhas Felizes • Adoção Responsável</div>
+        <ul class="footer-links">
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="avalie.html">Avaliações</a></li>
+        </ul>
+      </div>
+      <p class="copyright">Portal de Conscientização sobre Adoção Responsável. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Adoção Responsável</title>
+
+  <!--Fontes para o site-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!--Fundo do site-->
+  <div class="bg-blob bg-blob-1"></div>
+  <div class="bg-blob bg-blob-2"></div>
+
+  <!--Cabeçalho do site-->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class=logo>
+        Patinhas Felizes 🐾
+        <span>Conscientização sobre Adoção Responsável</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+
+      <!--Navegação principal do site-->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="avalie.html">Avaliações</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Conteúdo principal e card de destaque-->
+  <main class="container">
+    <section class="hero-section">
+      <div class="hero-card">
+        <div class="hero-content">
+          <h1 class="hero-title">Checklist de Preparação para Adoção</h1>
+          <p class="hero-description">Entendemos que o processo de adoção pode ser algo empolgante, uma vez que tudo o que mais queremos é receber o novo integrante da família com muito amor. Porém, primeiramente é preciso se certificar que você está preparado para abrir as portas da sua casa para o novo membro. Para isso preparamos um checklist para que você possa avaliar bem se está disposto a adicionar um pet a sua rotina e se certificar que ele se encaixará no seu orçamento.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Checklist Financeiro e Avaliação de Rotina-->
+    <section class="content-layout">
+      <div>
+        <h2 class="content-section-title">Checklist Financeiro</h2>
+        <div class="sidebar-box custom-form-box">
+          <p class="form-instruction">Marque os itens que você já planejou para o seu orçamento:</p>
+
+          <div class="checklist-group">
+
+            <label class="custom-checkbox">
+              <input type="checkbox" name="financeiro" value="alimentacao">
+              <span class="checkbox-box"></span>
+              <span class="checkbox-text">
+                <strong>Alimentação de Qualidade</strong>
+                Ração adequada paro porte e idade do animal, além de petiscos ocasionais.
+              </span>
+            </label>
+
+            <label class="custom-checkbox">
+              <input type="checkbox" name="financeiro" value="saude_basica">
+              <span class="checkbox-box"></span>
+              <span class="checkbox-text">
+                <strong>Cuidados com a Saúde</strong>
+                É de suma importância estar sempre com as vacinas em dia, além de vermífugos e antipulgas regulares.
+              </span>
+            </label>
+
+            <label class="custom-checkbox">
+              <input type="checkbox" name="financeiro" value="emergencias">
+              <span class="checkbox-box"></span>
+              <span class="checkbox-text">
+                <strong>Reserva para Casos de Emergências</strong>
+                É verdade que não queremos que nada aconteça aos nossos pets, porém é sempre bom estar preparado e deixar algum dinheiro reservado para consultas ou exames inesperados.
+              </span>
+            </label>
+
+            <label class="custom-checkbox">
+              <input type="checkbox" name="financeiro" value="conforto">
+              <span class="checkbox-box"></span>
+              <span class="checkbox-text">
+                <strong>Conforto</strong>
+                Tão importante quanto a alimentação e vacinação, é o conforto dos nossos animais. Uma caminha para que eles possam descansar, tigelas sempre limpas, coleira/guia para passeios e caixa de transporte para visitas ao veterinário.
+              </span>
+            </label>
+
+            <label class="custom-checkbox">
+              <input type="checkbox" name="financeiro" value="higiene">
+              <span class="checkbox-box"></span>
+              <span class="checkbox-text">
+                <strong>Higiene e Bem-Estar</strong>
+                Banho e tosa regulares, além de produtos para higienizar seus acessórios sem que cause alergias ou irritações.
+              </span>
+            </label>
+
+          </div>
+        </div>
+      </div>
+
+        <div>
+          <h2 class="content-section-title">Avaliação de Rotina</h2>
+          <div class="sidebar-box custom-form-box">
+            <form class="routine-form">
+
+              <div class="form-group">
+                <label cllass="group-label">Quanto tempo o pet passará sozinho por dia:</label>
+                <div class="radio-options">
+                  <label class="radio-card">
+                    <input type="radio" name="tempo_sozinho" value="pouco">
+                    <span class="radio-tile">Menos de 4 horas</span>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="tempo_sozinho" value="medio">
+                    <span class="radio-tile">De 4 a 8 horas</span>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="tempo_sozinho" value="muito">
+                    <span class="radio-tile">Mais de 8 horas</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label cllass="group-label">Você costuma viajar muito?</label>
+                <div class="radio-options">
+                  <label class="radio-card">
+                    <input type="radio" name="viagem" value="sim">
+                    <span class="radio-tile">Sim</span>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="viagem" value="nao">
+                    <span class="radio-tile">Não</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label cllass="group-label">Tipo de residência:</label>
+                <div class="radio-options">
+                  <label class="radio-card">
+                    <input type="radio" name="espaco_casa" value="apt">
+                    <span class="radio-tile">Apto sem tela</span>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="espaco_casa" value="apt_protegido">
+                    <span class="radio-tile">Apto com tela</span>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="espaco_casa" value="casa">
+                    <span class="radio-tile">Casa com quintal</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label cllass="group-label">Todos na residência estão de acordo sobre a adoção:</label>
+                <div class="radio-options">
+                  <label class="radio-card">
+                    <input type="radio" name="acordo" value="sim">
+                    <span class="radio-tile">Todos de acordo</span>
+                  </label>
+                  <label class="radio-card">
+                    <input type="radio" name="acordo" value="nao">
+                    <span class="radio-tile">Alguns estão em dúvida</span>
+                  </label>
+                </div>
+              </div>
+
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!--Rodapé da página-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Patinhas Felizes • Adoção Responsável</div>
+        <ul class="footer-links">
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="avalie.html">Avaliações</a></li>
+        </ul>
+      </div>
+      <p class="copyright">Portal de Conscientização sobre Adoção Responsável. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+  
+</body>
+</html>

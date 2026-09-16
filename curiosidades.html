@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Adoção Responsável</title>
+
+  <!--Fontes para o site-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!--Fundo do site-->
+  <div class="bg-blob bg-blob-1"></div>
+  <div class="bg-blob bg-blob-2"></div>
+
+  <!--Cabeçalho do site-->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class=logo>
+        Patinhas Felizes 🐾
+        <span>Conscientização sobre Adoção Responsável</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+
+      <!--Navegação principal do site-->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="avalie.html">Avaliações</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Conteúdo principal e card de destaque-->
+  <main class="container">
+    <section class="hero-section">
+      <div class="hero-card">
+        <div class="hero-content">
+          <h1 class="hero-title">Curiosidades e dicas</h1>
+          <p class="hero-description">Alguns dados e estatísticas sobre animais em abrigos e mais algumas dicas de como cuidar do seu pet.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Curiosidades-->
+    <section class="quick-guide">
+      <h2 class="section-title">Algumas curiosidades sobre a causa animal no Brasil:</h2>
+      <div class="guide-grid">
+
+        <div class="stat-card">
+          <span class="stat-number">30M+</span>
+          <h3>De animais abandonados</h3>
+          <p>Você sabia que o Brasil tem cerca de 30 milhões de cães e gatos abandonados, segundo estimativas da OMS?</p>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-number">80%</span>
+          <h3>De animais adotados</h3>
+          <p>Você sabia? Cerca de 80% dos pets nos lares brasileiros vieram de processos de adoção, superando largamente a compra de animais.</p>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-number">Lei</span>
+          <h3>Proteção Reforçada aos Animais</h3>
+          <p>A lei nº 14.064/2020 aumentou a pena específica para cães e gatos. Nesses casos, a pena é de reclusão de 2 a 5 anos, além de multa e proibição da guarda.</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <!--Curiosidades e Dicas-->
+    <section class="content-layout">
+      <div>
+        <h2 class="content-section-title">Você sabia?</h2>
+        <div class="sidebar-box custom-form-box">
+
+          <ul class="facts-list">
+
+            <li class="fact-item">
+              <span class="fact-icon">🐾</span>
+              <div>
+                <strong>Vacinação Gratuita</strong>
+                Fique atento a campanhas de vacinação gratuita em sua cidade. Confira a disponibilidade e a lista de documentos que deve apresentar.
+              </div>
+            </li>
+
+            <li class="fact-item">
+              <span class="fact-icon">🐾</span>
+              <div>
+                <strong>Castração Gratuita</strong>
+                Além da vacinação, é de suma importância que você castre seu pet para evitar doenças como câncer e piometraf no futuro. 
+              </div>
+            </li>
+
+            <li class="fact-item">
+              <span class="fact-icon">🐾</span>
+              <div>
+                <strong>Atendimento Gratuito</strong>
+                Você sabia que também existem consultas gratuitas para os seus pets? A consulta inclui avaliação clínica, medicação e encaminhamento para exames ou cirurgias.
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </div>
+
+      <aside>
+        <h2 class="content-section-title">Dicas de Alimentação</h2>
+        <div class="sidebar-box">
+
+          <div class="fact-card myth">
+            <span class="fact-tag">Chocolate, Café e Chás</span>
+            <p>São altamente tóxicos para cães e gatos, podendo causar vômito, diarréia e até mesmo convulsões. Tenha cuidado para seu animal não ingerir por engano.</p>
+          </div>
+
+          <div class="fact-card truth">
+            <span class="fact-tag">Churu caseiro e Alimentação Natural com Legumes</span>
+            <p>Invista no churu caseiro para seus gatos, principalmente no verão. E a alimentação natural com uma variedade de legumes é fácil e uma ótima opção para cães.</p>
+          </div>
+
+        </div>
+      </aside>
+
+    </section>
+  </main>
+
+  <!--Rodapé da página-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Patinhas Felizes • Adoção Responsável</div>
+        <ul class="footer-links">
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="avalie.html">Avaliações</a></li>
+        </ul>
+      </div>
+      <p class="copyright">Portal de Conscientização sobre Adoção Responsável. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+  
+</body>
+</html>
